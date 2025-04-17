@@ -1,7 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Hola Mundo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hola Mundo DevOps</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      animation: fadeIn 2s ease-in;
+    }
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
 </head>
 <body>
   <h1>Hola Mundo</h1>
